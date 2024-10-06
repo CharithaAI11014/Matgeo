@@ -9,9 +9,9 @@ x = points[:, 0]
 y = points[:, 1]
 
 # Define points
-V = np.array([points[0, 0], points[0, 1]])
+V = np.array([points[2, 0], points[2, 1]])
 Y = np.array([points[1, 0], points[1, 1]])
-X = np.array([points[2, 0], points[2, 1]])
+X = np.array([points[0, 0], points[0, 1]])
 
 # Define arbitrary non-unit vectors a and b
 a = np.array([1, 3])  # Example vector
