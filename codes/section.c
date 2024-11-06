@@ -20,7 +20,7 @@ int main() {
     double **X = createMat(2, 1);
     double **Y = createMat(2, 1);
 
-    // Calculate X = 3a + b
+    // Calculate X = 3a + b, column vector
     X[0][0] = 3 * ax + bx; // x-component
     X[1][0] = 3 * ay + by; // y-component
 

@@ -41,7 +41,8 @@ plt.plot([X[0], Y[0]], [X[1], Y[1]], color='black', linestyle='--', label='Line 
 plt.plot([V[0], X[0]], [V[1], X[1]], color='black', linestyle=':', label='Line segment VX')
 
 # Plot the vectors a and b
-plt.quiver(0, 0, a[0], a[1], angles='xy', scale_units='xy', scale=1, color='orange', label='Assuming Vector a = i + 3j', linewidth=2)
+plt.quiver(0, 0, a[0], a[1], angles='xy', scale_units='xy', scale=1, color='orange', label='Assuming Vector a = i + 3j', linewidth=2)# angles ='xy' means it is drawn in the reference of xy coordinates
+
 plt.quiver(0, 0, b[0], b[1], angles='xy', scale_units='xy', scale=1, color='orange', label='Assuming Vector b = 2i + j', linewidth=2)
 
 # Set limits and labels
